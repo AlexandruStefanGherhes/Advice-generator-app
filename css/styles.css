@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-size: 15px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  background: hsl(218deg, 23%, 16%);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Manrope", serif;
+}
+
+.main {
+  position: relative;
+  background: hsl(217deg, 19%, 24%);
+  min-height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+  padding-bottom: 100px;
+}
+.main .number {
+  margin: 30px 0;
+  color: hsl(150deg, 100%, 66%);
+  font-family: inherit;
+  letter-spacing: 3px;
+}
+.main .advice {
+  color: hsl(193deg, 38%, 86%);
+  font-family: inherit;
+}
+.main:after {
+  content: url(/images/pattern-divider-mobile.svg);
+  position: absolute;
+  left: 0%;
+  bottom: 70px;
+  height: 5px;
+  width: 100%;
+}
+.main .dice {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px;
+  border-radius: 50%;
+}
+.main .dice button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  border: 0;
+  background-color: hsl(150deg, 100%, 66%);
+  transition: all 0.1s;
+}
+.main .dice button img {
+  transition: transform 0.4s;
+}
+.main .dice button:hover {
+  box-shadow: 0px 0px 20px rgb(82, 255, 168);
+}
+.main .dice button:active img {
+  transform: rotate(360deg);
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    width: 500px;
+  }
+  .main:after {
+    content: url(/images/pattern-divider-desktop.svg);
+  }
+}/*# sourceMappingURL=styles.css.map */

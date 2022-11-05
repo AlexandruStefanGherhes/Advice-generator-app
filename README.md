@@ -35,15 +35,12 @@ Mobile version
 
 ![mobile version](/ss/mobile.png)
 
-Mobile version Active
-
-![mobile version](/ss/mobileActive.png)
 
 
 ### Links
 
 - Solution URL: [Code on GitHub](https://github.com/AlexandruStefanGherhes/Advice-generator-app.git)
-- Live Site URL: [Vercel Live URL](https://intro-section-with-dropdown-navigation-rosy-two.vercel.app/)
+- Live Site URL: [Vercel Live URL](https://advice-generator-app-six-pi.vercel.app/)
 
 ## My process
 
